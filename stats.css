@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gaegu', sans-serif;
+    background-color: #fbefd6;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    padding: 2rem;
+    background-color: #fb8b3c;
+    color: #fff;
+}
+
+.heading {
+    font-family: 'Slackey', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.stats-section {
+    padding: 2rem;
+}
+
+.section-heading {
+    font-family: 'Slackey', cursive;
+    color: #00afb3;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.items-grid, .countries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.stat-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: scale(1.05);
+}
+
+.stat-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1rem;
+    border-radius: 10px;
+}
+
+.stat-title {
+    font-family: 'Slackey', cursive;
+    color: #fb8b3c;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.stat-quantity {
+    font-size: 1rem;
+    color: #00afb3;
+}
+
+.stat-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain; 
+    margin: 0 auto 1rem;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
